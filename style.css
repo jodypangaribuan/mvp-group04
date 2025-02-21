@@ -37,3 +37,17 @@
     font-family: cursive;
     font-size: medium;
 }
+
+.button-custom{
+    width: 30em;
+}
+
+h3{
+    padding-left: 5em;
+}
+
+.btn-rounded{
+    border-radius: 10em;
+    
+
+}
