@@ -1,0 +1,39 @@
+:root {
+    --main-color: #344ddb; /* Biru */
+    --secondary-color: #2ecc71; /* Hijau */
+}
+.bg-custom{
+    background-color:var(--main-color);
+}
+
+.bg-custom-card{
+    background-color:var(--secondary-color);
+}
+
+.container{
+    width: 30pc;
+    
+}
+
+.card-custom{
+    width: 10pc;
+}
+
+.card-actions{
+    width: 13em;
+    height: 10em;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-actions:hover {
+    background-color: rgb(219, 219, 219);
+    transform: translateY(-4px);
+}
+.card-actions p{
+    font-family: cursive;
+    font-size: medium;
+}
